@@ -25,15 +25,20 @@ def get_bienvenida():
 #Película con mayor duración con filtros opcionales de AÑO, PLATAFORMA Y TIPO DE DURACIÓN. (la función debe llamarse get_max_duration(year, platform, duration_type))
 
 @app.get("/duracion/{year}/{platform}/{duration_type}")
-def get_max_duration(year:int, platform, duration_type):
+def get_max_duration(year, platform, duration_type):
     lista=[]
+    lista2=[]
     for ind,z in enumerate (datatotal["release_year"]):
         if (z == year):
             if (datatotal["duration_type"][ind] == duration_type):
                 if datatotal["ID"][ind][0] == platform:
-                     lista.append(int(datatotal["duration_int"][ind]))
-                
-    return max(lista)
+                    lista.append(int(datatotal["duration_int"][ind]))
+                    lista2.append(ind)
+                    b = max(lista)
+                    c = lista.index(b)
+                    d = lista2[c]
+
+    return (datatotal["title"][d])
 
 
 #Cantidad de películas por plataforma con un puntaje mayor a XX en determinado año (la función debe llamarse get_score_count(platform, scored, year))
