@@ -32,11 +32,11 @@ def get_max_duration(year, platform, duration_type):
         if (z == year):
             if (datatotal["duration_type"][ind] == duration_type):
                 if datatotal["ID"][ind][0] == platform:
-                    lista.append(int(datatotal["duration_int"][ind]))
-                    lista2.append(ind)
+                    lista.append(int(datatotal["duration_int"][ind])) #Guardo duraciones en base a ind
+                    lista2.append(ind) #guardo los indices
                     b = max(lista)
-                    c = lista.index(b)
-                    d = lista2[c]
+                    c = lista.index(b) #busco el indice del valor mas alto en la lista
+                    d = lista2[c] #busco el indice del valor mas alto en el dataframe
 
     return (datatotal["title"][d])
 
