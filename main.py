@@ -25,19 +25,19 @@ def get_bienvenida():
 #Película con mayor duración con filtros opcionales de AÑO, PLATAFORMA Y TIPO DE DURACIÓN. (la función debe llamarse get_max_duration(year, platform, duration_type))
 
 @app.get("/duracion/{year}/{platform}/{duration_type}")
-def get_max_duration(year, platform, duration_type):
+def get_max_duration(year:int, platform, duration_type):
     lista=[]
     lista2=[]
     for ind,z in enumerate (datatotal["release_year"]):
         if (z == year):
             if (datatotal["duration_type"][ind] == duration_type):
                 if datatotal["ID"][ind][0] == platform:
-                    lista.append(int(datatotal["duration_int"][ind])) #Guardo duraciones en base a ind
-                    lista2.append(ind) #guardo los indices
-                    b = max(lista)
-                    c = lista.index(b) #busco el indice del valor mas alto en la lista
-                    d = lista2[c] #busco el indice del valor mas alto en el dataframe
-
+                     lista.append(int(datatotal["duration_int"][ind]))
+                     lista2.append(ind)
+                     b = max(lista)
+                     c = lista.index(b)
+                     d = lista2[c]
+                
     return (datatotal["title"][d])
 
 
