@@ -31,7 +31,7 @@ Here are reflected the relationship of the processes that we are going to develo
 
 + Generate **`ID`** field: Each id will consist of the first letter of the platform name, followed by the show_id already present in the datasets (example for Amazon titles = **`as123`**)
 
-+The null values of the rating field must be replaced by the string “**`G`**” (corresponds to the maturity rating: “general for all audiences”
++ The null values of the rating field must be replaced by the string “**`G`**” (corresponds to the maturity rating: “general for all audiences”
 
 + If there are dates, they must have the format **`YYYY-mm-dd`**
 
