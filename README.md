@@ -5,7 +5,7 @@
 # <h1 align=center>**`Machine Learning Operations (MLOps)`**</h1>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/gaabrielgm93/individual_Project1/assets/mlops.png"  height=300>
+<img src="https://raw.githubusercontent.com/GabrielGM93/Individual_Project1/master/assets/Slide1.jpg"  height=300>
 </p>
 
 Welcome! On this occasion, you will find my first job placing me in the role of a ***MLOps Engineer***.  
