@@ -44,7 +44,7 @@ def get_max_duration(year:int, platform, duration_type):
 #Cantidad de películas por plataforma con un puntaje mayor a XX en determinado año (la función debe llamarse get_score_count(platform, scored, year))
 #Volvemos a la funcion
 @app.get("/puntaje/{platform}/{scored}/{year}")
-def get_score_count(platform, scored:int, year:int):
+def get_score_count(platform, scored:float, year:int):
     lista=[]
     for ind,z in enumerate (datatotal["release_year"]):
         if (z == year):
