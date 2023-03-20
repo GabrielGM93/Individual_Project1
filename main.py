@@ -3,7 +3,7 @@ import pandas as pd
 from fastapi import FastAPI
 
 #Importamos la bases de datos a usar
-datatotal = pd.read_csv("datasets/datatotal.csv", sep= ";")
+datatotal = pd.read_csv("datasets/datatotal.csv)
 
 app = FastAPI()
 
