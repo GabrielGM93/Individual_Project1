@@ -33,10 +33,9 @@ Here are reflected the relationship of the processes that we are going to develo
 
 + The null values of the rating field must be replaced by the string “**`G`**” (corresponds to the maturity rating: “general for all audiences”
 
-+ If there are dates, they must have the format **`YYYY-mm-dd`**
++ Dates must have the format **`YYYY-mm-dd`**
 
-+ Text fields must be in **lowercase**, no exceptions
-
++ Text fields must be in **lowercase**
 
 + The field ***duration*** must be converted to two fields: **`duration_int`** and **`duration_type`**. The first will be an integer and the second a string indicating the unit of duration measurement: min (minutes) or season (seasons).
 
