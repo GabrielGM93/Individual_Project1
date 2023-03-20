@@ -40,7 +40,7 @@ Here are reflected the relationship of the processes that we are going to develo
 
 + The field ***duration*** must be converted to two fields: **`duration_int`** and **`duration_type`**. The first will be an integer and the second a string indicating the unit of duration measurement: min (minutes) or season (seasons).
 
-You can access the transformation processes through the "ETL.ipynb" folder
+You can access the transformation processes through the "ETL.ipynb" file
 
 <br/>
 
@@ -54,7 +54,7 @@ You can access the transformation processes through the "ETL.ipynb" folder
 
 + Actor who repeats himself the most according to platform and year. (The function should be called get_actor(platform, year))
 
-You can acces the [link](https://proyecto-individual1.onrender.com/docs) to access the developed API, consider that when setting the platform parameter, place only use the first letter of the platform, that is, Amazon = "a", Netflix ="n", Hulu="h", Disney= "d" and the parameters for duration_type are "min" or "season"
+You can acces the [link](https://proyecto-individual1.onrender.com/docs) to access the developed API, consider that when setting the platform parameter, place only use the first letter of the platform, Amazon = "a", Netflix ="n", Hulu="h", Disney= "d" and the parameters for duration_type are "min" or "season"
 
 <br/>
 
