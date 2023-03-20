@@ -54,7 +54,7 @@ You can access the transformation processes through the "ETL.ipynb" file
 
 + Actor who repeats himself the most according to platform and year. (The function should be called get_actor(platform, year))
 
-You can click the [link](https://proyecto-individual1.onrender.com/docs) to access the developed API, consider that when setting the platform parameter, only use the first letter of it, Amazon = "a", Netflix ="n", Hulu="h", Disney= "d" and the parameters for duration_type are "min" or "season"
+You can click the [link](https://proyecto-individual1.onrender.com/docs) to access the developed API,set the platform parameter only using the first letter of it, Amazon = "a", Netflix ="n", Hulu="h", Disney= "d" and the parameters for duration_type are "min" or "season"
 
 <br/>
 
