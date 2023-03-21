@@ -65,10 +65,19 @@ You can click the [link](https://proyecto-individual1.onrender.com/docs) to acce
 
 Now that the data has been cleaned, it's time to investigate the relationships between variables in the datasets and identify possible outliers or anomalies. These anomalies may not necessarily be errors, but could be valuable insights into the data. Furthermore, it's essential to identify any interesting patterns that could be explored in further analysis.
 
-To help draw conclusions from the data, you can rely on various libraries such as pandas profiling, sweetviz, autoviz, and other similar tools. These tools can assist visualizing the relationships between the variables and identifying patterns that may not be immediately apparent.
+To help draw conclusions from the data, we have libraries like pandas profiling, sweetviz, autoviz, and other similar tools. These tools can assist visualizing the relationships between the variables and identifying patterns that may not be immediately apparent.
+
+To perform this, we observe unique users, the distribution of ratings, whether there are duplicates or not, and we also see, with the help of the pandas profiling library, where we see variables, interactions, correlations, and missing values.
 
 **`Recommendation system:`**:
 
 Once we have prepared our data and it is ready for the analytics and machine learning department, it's time to train our model. In this case, we will be building a movie recommendation system for users, where given a user ID and a movie, the model will tell us whether to recommend it or not. To carry this out, it's important to make sure we have a full understanding of the data and have conducted proper EDA. Once the model is trained, we can proceed to deploy it, either in the form of a user-friendly graphical interface using Gradio or a similar solution like Streamlit. Having a user interface is a big plus for our project.
+
+To Create a Surprise Dataset,in order to train recommender systems with Surprise, we need to create a Dataset object. A Surprise Dataset object is a dataset that contains the following fields in this order:
+1 The user IDs
+2 The item IDs (in this case the IDs for each book)
+3 The corresponding rating (usually on a scale such as 1–5)
+
+Then we define READER and DATA, separate our data with train_test_split, instantiate the model, in this case, Singular Value Decomposition (SVD), train it, once done we can make predictions, we also verify the RMSE and perform hyperparameter optimization.
 
 <br/>
