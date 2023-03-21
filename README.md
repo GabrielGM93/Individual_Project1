@@ -14,7 +14,7 @@ Welcome! On this occasion, you will find my first job placing me in the role of 
 
 ## **Description of the problem (Context and role to develop)**
 
-"You've just joined a start-up as a data scientist that provides aggregation services for streaming platforms. You're excited to start working on your first ML model that will solve a key business problem - a recommendation system that hasn't been launched yet!
+You've just joined a start-up as a data scientist that provides aggregation services for streaming platforms. You're excited to start working on your first ML model that will solve a key business problem - a recommendation system that hasn't been launched yet!
 
 However, as you start digging into their data, you quickly realize that their data maturity level is low, and there are no automated processes for updating new movies or series, among other things. This makes your job seem impossible, and you realize that you'll have to start from scratch and perform a quick data engineering job to have a Minimum Viable Product (MVP) ready by the end of the week.
 
@@ -54,7 +54,7 @@ You can access the transformation processes through the file "ETL.ipynb"
 
 + Actor who repeats himself the most according to platform and year. (The function should be called get_actor(platform, year))
 
-To start this work first I create a local virtual environment, install FastApi and Uvicorn libraries in it, create the main.py file using decorators, once everything is in order, within the virtual environment I create the requirements.txt file through the pip command freeze > requirements.txt, upload the datasets, main.py and requirements.txt to github. Once done from [Render](https://dashboard.render.com/) deploy the repository, where it already gives us the access link to the functions
+To start this work, first, I create a local virtual environment and install the FastApi and Uvicorn libraries in it. Then, I create the main.py file using decorators. Once everything is in order, I create the requirements.txt file within the virtual environment using the pip command 'freeze > requirements.txt'. After that, I upload the datasets, main.py, and requirements.txt to GitHub. Finally, I deploy the repository from Render, which provides us with the access link to the functions.
 
 You can click the [link](https://proyecto-individual1.onrender.com/docs) to access the developed API,set the platform parameter only using the first letter of it, Amazon = "a", Netflix ="n", Hulu="h", Disney= "d" and the parameters for duration_type are "min" or "season"
 
@@ -69,6 +69,6 @@ To help draw conclusions from the data, you can rely on various libraries such a
 
 **`Recommendation system:`**:
 
-"Once we have prepared our data and it is ready for the analytics and machine learning department, it's time to train our model. In this case, we will be building a movie recommendation system for users, where given a user ID and a movie, the model will tell us whether to recommend it or not. To carry this out, it's important to make sure we have a full understanding of the data and have conducted proper EDA. Once the model is trained, we can proceed to deploy it, either in the form of a user-friendly graphical interface using Gradio or a similar solution like Streamlit. Having a user interface is a big plus for our project."
+Once we have prepared our data and it is ready for the analytics and machine learning department, it's time to train our model. In this case, we will be building a movie recommendation system for users, where given a user ID and a movie, the model will tell us whether to recommend it or not. To carry this out, it's important to make sure we have a full understanding of the data and have conducted proper EDA. Once the model is trained, we can proceed to deploy it, either in the form of a user-friendly graphical interface using Gradio or a similar solution like Streamlit. Having a user interface is a big plus for our project.
 
 <br/>
