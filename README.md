@@ -20,7 +20,7 @@ However, as you start digging into their data, you quickly realize that their da
 
 Despite feeling overwhelmed, you decide to face your fears and get to work. You know that the key to success lies in developing a well-planned process, so you start mapping out the relationship between the various processes that need to be developed." :muscle:
 
-Here are reflected the relationship of the processes that we are going to develop.
+Here are reflected the relationship of this processes:
 
 <p align="center">
 <img src="https://github.com/HX-PRomero/PI_ML_OPS/blob/main/src/DiagramaConceptualDelFlujoDeProcesos.png"  height=500>
