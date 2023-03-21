@@ -87,5 +87,8 @@ Then we define READER and DATA, separate our data with train_test_split, instant
 In the file EDA_recommendationsystem.ipynb, we can see the detailed procedures for both *`Exploratory Data Analysis-EDA`* and *`Recommendation system`*
 
 
+Through this [link](https://www.youtube.com/watch?v=TNMtUDqnEIQ) we will be able to verify the proper functioning of the features, EDA, and the instantiation and training of our recommendation system.
+
+
 
 <br/>
