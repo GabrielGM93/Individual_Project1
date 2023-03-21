@@ -12,7 +12,7 @@ Welcome! On this occasion, you will find my first job placing me in the role of 
 
 <hr>  
 
-## **Description of the problem (Context and role to develop)**
+## **Context and role to develop**
 
 You've just joined a start-up as a data scientist that provides aggregation services for streaming platforms. You're excited to start working on your first ML model that will solve a key business problem - a recommendation system that hasn't been launched yet!
 
