@@ -53,6 +53,8 @@ You can access the transformation processes through the "ETL.ipynb" file
 
 + Actor who repeats himself the most according to platform and year. (The function should be called get_actor(platform, year))
 
+To start this work first I create a local virtual environment, install FastApi and Uvicorn libraries in it, create the main.py file using decorators, once everything is in order, within the virtual environment I create the requirements.txt file through the pip command freeze > requirements.txt, upload the datasets, main.py and requirements.txt to github. Once done from [Render](https://dashboard.render.com/) we deploy the repository, where it already gives us the access link to the functions
+
 You can click the [link](https://proyecto-individual1.onrender.com/docs) to access the developed API,set the platform parameter only using the first letter of it, Amazon = "a", Netflix ="n", Hulu="h", Disney= "d" and the parameters for duration_type are "min" or "season"
 
 <br/>
