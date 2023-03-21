@@ -83,4 +83,9 @@ To Create a Surprise Dataset,in order to train recommender systems with Surprise
 
 Then we define READER and DATA, separate our data with train_test_split, instantiate the model, in this case, Singular Value Decomposition (SVD), train it, once done we can make predictions, we also verify the RMSE and perform hyperparameter optimization.
 
+
+In the file recommendationsystem.ipynb, we can see the detailed procedures for both *`Exploratory Data Analysis-EDA`* and *`Recommendation system`*
+
+
+
 <br/>
